@@ -24,7 +24,7 @@ class MyApp extends App {
         <>
           <GlobalStyle />
           <Head>
-            <title>Aleh Atsman - Personal Blog</title>
+            <title>Futurum Lab</title>
           </Head>
           <Component {...pageProps} />
         </>

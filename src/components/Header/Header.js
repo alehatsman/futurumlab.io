@@ -1,5 +1,3 @@
-import * as React from 'react'
-
 import { HeaderWrapper, LogoWrapper, LogoText, NavWrapper, NavItem } from './Header.styled'
 import Logo from './Logo'
 

@@ -2,15 +2,15 @@ import styled from 'styled-components'
 
 import { storiesOf } from '@storybook/react'
 
-import Header from './Header'
+import LeadBlock from './LeadBlock'
 
 const Wrapper = styled.div`
   width: 80vw;
 `
 
-storiesOf('Header', module)
+storiesOf('LeadBlock', module)
   .add('default', () => (
     <Wrapper>
-      <Header />
+      <LeadBlock />
     </Wrapper>
   ))
