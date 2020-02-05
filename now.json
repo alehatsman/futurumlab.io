@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "name": "futurumlab.com",
-  "alias": "futurumlab.com",
-  "builds": [
-    { "src": "package.json", "use": "@now/static-build" }
-  ]
-}
