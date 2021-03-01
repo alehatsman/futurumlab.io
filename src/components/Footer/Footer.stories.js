@@ -6,9 +6,8 @@ const Wrapper = styled.div`
   width: 80vw;
 `
 
-storiesOf('Footer', module)
-  .add('default', () => (
-    <Wrapper>
-      <Footer />
-    </Wrapper>
-  ))
+storiesOf('Footer', module).add('default', () => (
+  <Wrapper>
+    <Footer />
+  </Wrapper>
+))

@@ -4,7 +4,12 @@ import socialIcons from './SocialIcons'
 import styled from '@emotion/styled'
 
 const Wrapper = styled.nav`
-  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  width: 264px;
+  margin-top: 78px;
 `
 
 const Item = styled.a`

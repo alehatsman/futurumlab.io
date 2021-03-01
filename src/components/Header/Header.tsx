@@ -1,4 +1,6 @@
 import React from 'react'
+import styled from '@emotion/styled'
+
 import {
   HeaderWrapper,
   LogoWrapper,
@@ -23,4 +25,4 @@ const Header = () => (
   </HeaderWrapper>
 )
 
-export default Header
+export default styled(Header)``

@@ -5,6 +5,7 @@ export const HeaderWrapper = styled.header`
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 52px 50px 0 50px;
 `
 
 export const LogoWrapper = styled.div`
@@ -16,9 +17,10 @@ export const LogoText = styled.span`
   margin-left: 15px;
   padding-left: 10px;
   font-size: 3.2rem;
-  font-weight: bold;
+  font-weight: 800;
   color: ${colors.font};
-  background: linear-gradient(90deg, ${colors.yellow} 50%, #fff 50%);
+  background: linear-gradient(90deg, ${colors.yellow} 63%, #fff 50%);
+  line-height: 47px;
 `
 
 export const NavWrapper = styled.nav`
@@ -36,7 +38,9 @@ export const NavItem = styled.a`
     margin-left: 30px;
   }
 
-  ${({ active }: { active?: boolean }) => active && `
+  ${({ active }: { active?: boolean }) =>
+    active &&
+    `
     &::after {
       content:"";
       position: absolute;

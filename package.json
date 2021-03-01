@@ -4,43 +4,24 @@
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "eslintConfig": {
-    "rules": {
-      "no-unused-vars": "off",
-      "@typescript-eslint/no-unused-vars": "error"
-    }
-  },
-  "standardx": {
-    "parser": "@typescript-eslint/parser",
-    "plugins": [
-      "@typescript-eslint/eslint-plugin"
-    ]
+  "ts-standard": {
+    "project": "./tsconfig.json"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "@emotion/core": "^10.0.27",
-    "@emotion/styled": "^10.0.27",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
     "@types/node": "^13.7.0",
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
-    "@typescript-eslint/eslint-plugin": "2",
-    "eslint": "6",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-config-standard-jsx": "^8.1.0",
-    "eslint-config-standard-with-typescript": "^12.0.1",
-    "eslint-plugin-import": "2",
-    "eslint-plugin-node": "9",
-    "eslint-plugin-promise": "4",
-    "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-standard": "4",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
-    "gatsby-plugin-emotion": "^4.1.22",
+    "gatsby-plugin-emotion": "^6.0.0",
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-module-resolver": "^1.0.3",
     "gatsby-plugin-offline": "^3.0.32",
@@ -50,8 +31,9 @@
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-sharp": "^2.3.13",
-    "prettier": "^1.19.1",
-    "typescript": "^3.7.5"
+    "ts-standard": "^10.0.0",
+    "typescript": "^3.7.5",
+    "typescript-language-server": "^0.5.1"
   },
   "keywords": [
     "gatsby"
@@ -66,8 +48,8 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "types:check": "tsc --noEmit",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
-    "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx ./src"
+    "lint": "ts-standard",
+    "lint:fix": "ts-standard --fix"
   },
   "repository": {
     "type": "git",

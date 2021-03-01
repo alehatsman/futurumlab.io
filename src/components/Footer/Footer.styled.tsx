@@ -12,7 +12,7 @@ export const FooterWrapper = styled.footer`
   background: #000;
 
   ${Button} {
-    margin-top: 25px;
+    margin-top: 64px;
   }
 `
 
@@ -23,18 +23,19 @@ export const Title = styled.h1`
   color: #fff;
 `
 
-export const Description = styled.div`
+export const Description = styled.p`
+  margin-buttom: 0;
   margin-top: 25px;
   font-weight: 300;
   font-size: 2rem;
   text-align: center;
   color: #fff;
   line-height: 1.5;
-  width: 600px;
+  width: 38%;
 `
 
 export const Copyright = styled.div`
-  margin-top: 25px;
+  margin-top: 23px;
   color: #fff;
   font-size: 1.4rem;
 `
