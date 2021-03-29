@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import styled from '@emotion/styled'
 import Block from '@/components/Block'
 
@@ -30,8 +30,8 @@ const Avatar = styled.div`
   background-color: #f1d63f;
 `
 
-const OurTeamBlock = () => (
-  <Block header={'Our team'}>
+const OurTeamBlock: FC = () => (
+  <Block header='Our team'>
     <Team>
       <Member>
         <Avatar />

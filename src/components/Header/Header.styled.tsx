@@ -39,8 +39,7 @@ export const NavItem = styled.a`
   }
 
   ${({ active }: { active?: boolean }) =>
-    active &&
-    `
+    active ?? `
     &::after {
       content:"";
       position: absolute;

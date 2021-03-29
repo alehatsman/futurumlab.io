@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { FC } from 'react'
 
-export default () => (
+const Facebook: FC = () => (
   <svg
     width='24'
     height='25'
@@ -14,3 +14,5 @@ export default () => (
     />
   </svg>
 )
+
+export default Facebook

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import styled from '@emotion/styled'
 
 import { ButtonWrapper } from './Button.styled'
@@ -9,7 +9,7 @@ interface Props {
   className?: string
 }
 
-const Button = ({ label, onClick, className }: Props) => (
+const Button: FC<Props> = ({ label, onClick, className }) => (
   <ButtonWrapper className={className} onClick={onClick}>
     {label}
   </ButtonWrapper>

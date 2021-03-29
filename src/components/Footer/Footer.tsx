@@ -14,7 +14,7 @@ import {
 import Social from './Social'
 
 const Footer: FC<{ className?: string }> = ({ className }) => (
-  <FooterWrapper className={className} label="">
+  <FooterWrapper className={className}>
     <Title>Let's work together</Title>
     <Description>
       {`Lorem Ipsum is simply dummy text of the printing and typesetting industry.

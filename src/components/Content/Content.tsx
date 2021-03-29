@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import styled from '@emotion/styled'
 
 import media from '@/styles/media'
@@ -15,8 +15,10 @@ const ContentWrapper = styled.div`
   `}
 `
 
-const Content = ({ children }: { children: React.ReactNode }) => (
-  <ContentWrapper>{children}</ContentWrapper>
+const Content: FC = ({ children }) => (
+  <ContentWrapper>
+    {children}
+  </ContentWrapper>
 )
 
 export default Content

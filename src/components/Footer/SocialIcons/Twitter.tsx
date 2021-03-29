@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { FC } from 'react'
 
-export default () => (
+const Twitter: FC = () => (
   <svg
     width='24'
     height='22'
@@ -14,3 +14,5 @@ export default () => (
     />
   </svg>
 )
+
+export default Twitter

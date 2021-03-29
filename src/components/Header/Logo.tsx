@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { FC } from 'react'
 
-const Logo = () => (
+const Logo: FC = () => (
   <svg
     width='47'
     height='47'

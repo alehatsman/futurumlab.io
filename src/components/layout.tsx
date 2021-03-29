@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { FC } from 'react'
 import { Global } from '@emotion/react'
 import { globalStyles } from '@/styles/globals'
 import '@/styles/font_faces.css'
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
+const Layout: FC = ({ children }) => {
   return (
     <>
       <Global styles={globalStyles} />

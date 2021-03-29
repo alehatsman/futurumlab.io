@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { FC } from 'react'
 import styled from '@emotion/styled'
 
 import Layout from '@/components/layout'
 
-import SEO from '@/components/seo'
+import Seo from '@/components/seo'
 import Header from '@/components/Header'
 import LeadBlock from '@/components/LeadBlock'
 import Content from '@/components/Content'
@@ -31,10 +31,10 @@ const HomeWrapper = styled.div`
   }
 `
 
-const Home = () => (
+const Home: FC = () => (
   <Layout>
     <HomeWrapper>
-      <SEO title='Home' />
+      <Seo title='Home' />
       <Content>
         <Header />
         <LeadBlock />

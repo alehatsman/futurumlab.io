@@ -41,7 +41,7 @@ const Block: FC<BlockProps> = ({ children, header }) => {
   return (
     <Wrapper>
       <Separator>
-        <svg width="230" height="2" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#000" stroke-width="2" stroke-dasharray="10 10" d="M0 1h230"></path></svg>
+        <svg width='230' height='2' fill='none' xmlns='http://www.w3.org/2000/svg'><path stroke='#000' stroke-width='2' stroke-dasharray='10 10' d='M0 1h230' /></svg>
       </Separator>
       <Content>
         <Header>
@@ -49,7 +49,7 @@ const Block: FC<BlockProps> = ({ children, header }) => {
             {header}
           </HeaderText>
         </Header>
-        { children }
+        {children}
       </Content>
     </Wrapper>
   )

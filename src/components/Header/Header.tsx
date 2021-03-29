@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import styled from '@emotion/styled'
 
 import {
@@ -10,7 +10,7 @@ import {
 } from './Header.styled'
 import Logo from './Logo'
 
-const Header = () => (
+const Header: FC = () => (
   <HeaderWrapper>
     <LogoWrapper>
       <Logo />

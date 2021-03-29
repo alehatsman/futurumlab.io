@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import socialIcons from './SocialIcons'
 
 import styled from '@emotion/styled'
@@ -18,10 +18,10 @@ const Item = styled.a`
   }
 `
 
-const SocialIcons = () => (
+const SocialIcons: FC = () => (
   <Wrapper>
     {
-      Object.keys(socialIcons).map(key => {
+      (Object.keys(socialIcons) as Array<keyof typeof socialIcons>).map(key => {
         const Icon = socialIcons[key]
         return (
           <Item key={key}>
