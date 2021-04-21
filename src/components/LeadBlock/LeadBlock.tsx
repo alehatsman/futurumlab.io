@@ -18,9 +18,9 @@ const LeadBlock: FC<{ className?: string }> = ({ className }) => {
     <LeadBlockWrapper className={className}>
       <Preview>
         <Header>Software Company</Header>
-        <SubHeader>We build amazing products.</SubHeader>
+        <SubHeader>We build products for your needs.</SubHeader>
         <Description>
-          Quick and efficient product development using modern technologies and best practices.
+          Agile software development using modern technologies and best practices.
         </Description>
         <Button>Contact Us</Button>
       </Preview>

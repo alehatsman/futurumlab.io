@@ -71,7 +71,7 @@ const PointsBlock: FC = () => {
             Analysis
           </PointHeader>
           <PointDescription>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+            Our work is all about doing things well, but most importantly doing the right work. We put high effort into determining the core underlying needs of our clients and their end-users.
           </PointDescription>
         </Point>
         <Point>
@@ -80,7 +80,7 @@ const PointsBlock: FC = () => {
             Development
           </PointHeader>
           <PointDescription>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+            Cloud-native, serverless, infrastructure as code, Graphql, REST, client rich apps sounds like a lot of buzz words to you? No worries, we help to understand what best suits you and your product.
           </PointDescription>
         </Point>
         <Point>
@@ -89,7 +89,7 @@ const PointsBlock: FC = () => {
             Planning
           </PointHeader>
           <PointDescription>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+            Let's be honest, estimations are hard in the IT industry, even the best experts have a bad time giving estimations for work that takes more than a few weeks. We do our best to give you as price estimations as possible and you will be involved in our iterative process to reduce any surprises.
           </PointDescription>
         </Point>
         <Point>
@@ -98,7 +98,7 @@ const PointsBlock: FC = () => {
             Delivery
           </PointHeader>
           <PointDescription>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+            Delivering on time is one of our higher priorities. Got a hard deadline? In hurry to reach the market first? We underdand. We are masters in the art of cutting the corners right! You will be involved in our iterative process to reduce any surprises.
           </PointDescription>
         </Point>
       </Points>

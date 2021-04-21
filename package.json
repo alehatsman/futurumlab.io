@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "futurumlab.io",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Futurumlab main website project.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Futurumlab <mail@futurumlab.io>",
   "ts-standard": {
     "project": "./tsconfig.json"
   },
@@ -37,9 +37,6 @@
     "typescript": "^4.2.3",
     "typescript-language-server": "^0.5.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -55,9 +52,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/alehatsman/futurumlab.io"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/alehatsman/futurumlab.io/issues"
   }
 }
